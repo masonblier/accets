@@ -1,0 +1,22 @@
+{
+  "name": "accets",
+  "description": "composable asset compilation",
+  "version": "0.0.2",
+  "author": "Mason Blier <mason.blier@gmail.com>",
+  "repository":"https://github.com/masonblier/accets.git",
+  "scripts":{
+    "test": "./node_modules/.bin/cake test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "espr-util":"latest",
+    "coffee-script":"latest",
+    "mocha":"latest",
+    "chai":"latest",
+    "sinon":"latest"
+  },
+
+  "main": "index",
+  "engines": { "node": "*" }
+}
